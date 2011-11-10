@@ -1,49 +1,15 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
 require 'savon'
+require './allegro/client.rb'
 require './allegro/value.rb'
 require './allegro/auction.rb'
-
-class AllegroClient < Savon::Client
-  def initialize
-    super() do
-      wsdl.document = 'allegro.wsdl'
-    end
-    # super "http://webapi.allegro.pl/uploader.php?wsdl"
-    # super "http://www.testwebapi.pl/uploader.php?wsdl"
-  end
-end
-
-class SwistakClient < Savon::Client
-  def initialize
-    super() do
-      wsdl.document = 'swistak.wsdl'
-    end
-  end
-
-  def authenticate(login, pass)
-    # request :get_hash, body: [ login, pass ]
-  end
-end
-
 require './credentials.rb'
-WEBAPI_KEY = '3870701153'
-COUNTRY_CODE = 228
+
+COUNTRY_CODE = 228 # testwebapi.pl
 VERSION_KEY = '66133613'
 
-$login_body = {
-  :"user-login"    => LOGIN,
-  :"user-password" => PASSWORD,
-  :"country-code"  => COUNTRY_CODE,
-  :"webapi-key"    => WEBAPI_KEY,
-  :"local-version" => VERSION_KEY
-}
-
-$c = AllegroClient.new
-def login
-  $login_response = $c.request :do_login, body: $login_body
-  $session_hash = $login_response.to_hash[:do_login_response][:session_handle_part]
-end
+$c = AllegroClient.new(COUNTRY_CODE, VERSION_KEY, WEBAPI_KEY)
 
 def get_raw_fields
   results = $c.request :do_get_sell_form_fields_for_category, body: {
