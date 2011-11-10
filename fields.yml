@@ -1,0 +1,5891 @@
+--- 
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Tytu\xC5\x82"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "50"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: "Tutaj mozesz wpisac tytu\xC5\x82"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Kategoria
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "500"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Tutaj mozesz wybrac kategorie
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Data rozpoczecia
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "9"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "9"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "11"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Tutaj mozesz wybrac date rozpoczecia
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Czas trwania aukcji
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "5.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: 3|5|7|10|14|30
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 0|1|2|3|4|5
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: wybierz Czas trwania aukcji
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Liczba sztuk
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "9"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: wybierz liczbe sztuk
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "6"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Cena wywolawcza
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "6"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "13"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: wybierz cene wywolawcza
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Cena minimalna
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "13"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: wybierz cene minimalna
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Cena \"Kup Teraz\"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "13"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: wybierz cene Kup Teraz
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "9"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Kraj
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "9"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "50"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Prosze podac kraj 228 - Neverland
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Wojewodztwo
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "216.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: " -- Wybierz wojewodztwo -- |dolnopolskie|gornopolskie|lewopolskie|prawopolskie"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 0|213|214|215|216
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz z listy wojewodztwo
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "11"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Miasto
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "11"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "100"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wpisz miasto
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "12"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Transport
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "12"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: Sprzedajacy pokrywa koszty transportu|Kupujacy pokrywa koszty transportu
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 0|1
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz transport
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "13"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Opcje dot. transportu
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "6"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "13"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "63.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: "-|-|-|-|Szczeg\xC3\xB3\xC5\x82y w opisie|Zgadzam si\xC4\x99 na wys\xC5\x82anie przedmiotu za granic\xC4\x99"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 1|2|4|8|16|32
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz opcje transportu
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "14"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Formy platnosci
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "6"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "14"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "15.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: Platne z gory (przelew)|-|Szczegoly w opisie|Wystawiam faktury VAT
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 1|2|4|8
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz formy platnosci
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "15"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Opcje dodatkowe
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "6"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "15"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "127.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: Pogrubienie|Miniaturka|Podswietlenie|Wyroznienie|Strona kategorii|Strona glowna Allegro|Znak wodny
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 1|2|4|8|16|32|64
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz opcje dodatkowe
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "16"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 1
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "16"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 1
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "17"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 2
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "17"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 2
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "18"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 3
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "18"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 3
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "19"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 4
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "19"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 4
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "20"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 5
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "20"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 5
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "21"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 6
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "21"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 6
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "22"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 7
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "22"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 7
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "23"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Zdjecie 8
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "7"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "23"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wybierz zdjecie nr 8
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "24"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Opis
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "24"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Wpisz opis przedmiotu
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "27"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Dodatkowe informacje o przesy\xC5\x82ce i p\xC5\x82atno\xC5\x9Bci"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "27"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "500"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: "W polu tym mo\xC5\xBCesz wpisa\xC4\x87 dodatkowe warunki i informacje, np. <b>koszty wysy\xC5\x82ki przy zakupie kilku przedmiot\xC3\xB3w</b>, <b>numer konta bankowego</b> itp. Pami\xC4\x99taj jednak, \xC5\xBCe mo\xC5\xBCesz wpisa\xC4\x87 maksymalnie <b><font color=red>500</font></b> znak\xC3\xB3w."
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "28"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Sztuki / Komplety / Pary
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "28"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "2.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: "Sztuk|Komplet\xC3\xB3w|Par"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 0|1|2
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "29"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Format sprzeda\xC5\xBCy"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "29"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: "Aukcja (z licytacj\xC4\x85) lub Kup Teraz!|Sklep (bez licytacji)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 0|1
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "30"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Automatyczne wznowienie oferty
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "4"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "30"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "2.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: "Nie wznawiaj|Wzn\xC3\xB3w z pe\xC5\x82nym zestawem przedmiot\xC3\xB3w|Wzn\xC3\xB3w tylko z przedmiotami niesprzedanymi"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 0|1|2
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: Opcje wystawienia przedmiotu w sklepie.
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "31"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Kategoria w sklepie
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "31"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "500"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: !str:Nori::StringWithAttributes 
+    str: "Okre\xC5\x9Bl kategori\xC4\x99 przedmiotu w ramach sklepu Allegro."
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "32"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Kod pocztowy
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "32"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "33"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Pierwsze konto bankowe
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "33"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "35"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "34"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Drugie konto bankowe
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "34"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "35"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "35"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Darmowe opcje przesy\xC5\x82ki"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "6"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "67"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "0.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "7.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r osobisty|Przesy\xC5\x82ka elektroniczna (e-mail)|Odbi\xC3\xB3r osobisty po przedp\xC5\x82acie"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_opts_values: !str:Nori::StringWithAttributes 
+    str: 1|2|4
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "36"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Paczka pocztowa ekonomiczna (pierwsza sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "68"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "37"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List ekonomiczny (pierwsza sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "69"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "38"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Paczka pocztowa priorytetowa (pierwsza sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "70"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "39"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List priorytetowy (pierwsza sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "71"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "40"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka pobraniowa (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "72"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "41"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List polecony ekonomiczny (pierwsza sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "73"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "42"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka pobraniowa priorytetowa (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "74"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "43"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List polecony priorytetowy (pierwsza sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "75"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "44"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka kurierska (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "76"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "45"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka kurierska pobraniowa (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "77"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "46"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - DHL SERVICE POINT (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "78"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "47"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - E-PRZESY\xC5\x81KA (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "79"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "48"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - PACZKA W RUCHu (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "80"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "49"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - Paczkomaty 24/7 (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "81"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "50"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - E-PRZESY\xC5\x81KA (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "82"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "51"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - PACZKA W RUCHu (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "83"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "52"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - Paczkomaty 24/7 (pierwsza sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "84"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "136"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Paczka pocztowa ekonomiczna (kolejna sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "85"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "137"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List ekonomiczny (kolejna sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "86"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "138"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: Paczka pocztowa priorytetowa (kolejna sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "87"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "139"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List priorytetowy (kolejna sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "88"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "140"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka pobraniowa (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "89"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "141"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List polecony ekonomiczny (kolejna sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "90"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "142"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka pobraniowa priorytetowa (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "91"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "143"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: List polecony priorytetowy (kolejna sztuka)
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "92"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "144"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka kurierska (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "93"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "145"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka kurierska pobraniowa (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "94"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "146"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - DHL SERVICE POINT (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "95"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "147"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - E-PRZESY\xC5\x81KA (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "96"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "148"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - PACZKA W RUCHu (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "97"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "149"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - Paczkomaty 24/7 (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "98"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "150"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - E-PRZESY\xC5\x81KA (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "99"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "151"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - PACZKA W RUCHu (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "100"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "152"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - Paczkomaty 24/7 (kolejna sztuka)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "3"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "101"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "10"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "1000000.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "236"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Paczka pocztowa ekonomiczna (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "102"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "237"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "List ekonomiczny (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "103"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "238"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Paczka pocztowa priorytetowa (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "104"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "239"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "List priorytetowy (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "105"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "240"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka pobraniowa (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "106"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "241"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "List polecony ekonomiczny (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "107"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "242"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka pobraniowa priorytetowa (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "108"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "243"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "List polecony priorytetowy (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "109"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "244"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka kurierska (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "110"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "245"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Przesy\xC5\x82ka kurierska pobraniowa (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "111"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "246"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - DHL SERVICE POINT (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "112"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "247"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - E-PRZESY\xC5\x81KA (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "113"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "248"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - PACZKA W RUCHu (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "114"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "249"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie po przedp\xC5\x82acie - Paczkomaty 24/7 (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "115"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "250"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - E-PRZESY\xC5\x81KA (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "116"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "251"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - PACZKA W RUCHu (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "117"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
+- :sell_form_id: !str:Nori::StringWithAttributes 
+    str: "252"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_title: !str:Nori::StringWithAttributes 
+    str: "Odbi\xC3\xB3r w punkcie - Paczkomaty 24/7 (ilo\xC5\x9B\xC4\x87 w paczce)"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_cat: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_res_type: !str:Nori::StringWithAttributes 
+    str: "2"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_def_value: !str:Nori::StringWithAttributes 
+    str: "-1"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_opt: !str:Nori::StringWithAttributes 
+    str: "8"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_pos: !str:Nori::StringWithAttributes 
+    str: "118"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_length: !str:Nori::StringWithAttributes 
+    str: "5"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_min_value: !str:Nori::StringWithAttributes 
+    str: "-1.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_max_value: !str:Nori::StringWithAttributes 
+    str: "99999.00"
+    :@attributes: 
+      xsi:type: xsd:string
+  :sell_form_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_opts_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_field_desc: 
+    :"@xsi:type": xsd:string
+  :sell_form_param_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_param_values: 
+    :"@xsi:type": xsd:string
+  :sell_form_parent_id: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :sell_form_parent_value: 
+    :"@xsi:type": xsd:string
+  :sell_form_unit: 
+    :"@xsi:type": xsd:string
+  :sell_form_options: !str:Nori::StringWithAttributes 
+    str: "0"
+    :@attributes: 
+      xsi:type: xsd:int
+  :"@xsi:type": typens:SellFormType
