@@ -13,9 +13,8 @@ class Allegro::Value
     FalseClass => :boolean,
   }  
 
-  CONVERTERS = {
-    datetime: ->(date){ date.to_i }
-  }
+  CONVERTERS = { datetime: ->(date){ date.to_i } }
+  # TYPES => { 1 => :string, 2 => :int, 3 => :float, 7 => :image, 9 => :datetime, 13 => :datetime }
   
   EMPTY_HASH = {
     'fid'             => nil,

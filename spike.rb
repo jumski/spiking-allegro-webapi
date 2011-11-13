@@ -1,24 +1,36 @@
-#!/usr/bin/env ruby
 # encoding: utf-8
 require 'savon'
-require './allegro/client.rb'
-require './allegro/value.rb'
-require './allegro/auction.rb'
+require 'active_support'
+require 'yaml'
+load './allegro/client.rb'
+load './allegro/value.rb'
+load './allegro/auction.rb'
 require './credentials.rb'
 
 COUNTRY_CODE = 228 # testwebapi.pl
 VERSION_KEY = '66133613'
 
-$c = AllegroClient.new(COUNTRY_CODE, VERSION_KEY, WEBAPI_KEY)
+$c = AllegroClient.new(COUNTRY_CODE, VERSION_KEY, WEBAPI_KEY, LOGIN, PASSWORD)
 
 def get_raw_fields
-  results = $c.request :do_get_sell_form_fields_for_category, body: {
-    'webapi-key' => WEBAPI_KEY,
-    'country-id' => COUNTRY_CODE,
-    'category-id' => 1829,
-  }
+  path = 'tmp/get_raw_fields.dump'
+  if File.exists?(path)
+    fields = Marshal::load File.open(path).read
+  else
+    results = $c.request :do_get_sell_form_fields_for_category, body: {
+      'webapi-key' => WEBAPI_KEY,
+      'country-id' => COUNTRY_CODE,
+      'category-id' => 1829,
+    }
 
-  results.body.first.last[:sell_form_fields_for_category][:sell_form_fields_list][:item]
+    fields = results.body.first.last[:sell_form_fields_for_category][:sell_form_fields_list][:item]
+
+    File.open(path, 'w') do |f|
+      f.write Marshal::dump(fields)
+    end
+  end
+
+  fields
 end
 
 def get_fields
@@ -37,16 +49,19 @@ def get_fields
   fields
 end
 
-def get_optional_fields
-  get_fields.select{|f| f[:sell_form_opt].to_i == 8}
-end
-
-def get_required_fields
-  get_fields.select{|f| f[:sell_form_opt].to_i == 1}
-end
-
 def find_field(id)
   get_fields.select{|f| f[:id].to_i == id.to_i }.first
+end
+
+def search_field(text)
+  get_fields.select{|f| f[:title] =~ /#{text}/ }.first
+end
+
+def show_fields(filter = nil)
+  get_fields.each do |f|
+    puts "[#{f[:id]}] #{f[:title]}"
+  end
+  return
 end
 
 
@@ -59,25 +74,25 @@ LIFETIME_10DAYS = 3
 LIFETIME_14DAYS = 4
 
 $book.name = 'Pan Tadeusz' 
-$book.category = '1829'
-$book.starts_at = Time.now
-$book.duration = LIFETIME_7DAYS
+$book.category = 1829
 $book.amount = 1
 $book.buy_now_price = 123.45
+$book.duration = LIFETIME_7DAYS
+$book.description = %Q{
+<h2>Pan tadeusz!</h2>
+kup teraz ~!!!!!!<br/>
+nie odwoluje aukcji
+}
+
+$book.seller_pays_for_delivery = 0
 $book.country_id = 228
 $book.region = 213
 $book.place = "krakuf"
 $book.zip_code = "31-331"
-$book.buyer_pays_for_delivery = true
+
+# $book.starts_at = Time.now
 $book.delivery_methods = 1
+$book.shipment_price = 0.0
 $book.payment_methods = 1
-$book.description = <<HTML
-<h2>Pan tadeusz!</h2>
-kup teraz ~!!!!!!<br/>
-nie odwoluje aukcji
-HTML
 
-def make_auction
-  a=$c.request :do_check_new_auction_ext, body: { :'session-handle' => $session_hash, :'fields' => $book.to_hash }
-end
-
+$c.make_auction $book
