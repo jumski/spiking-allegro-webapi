@@ -73,15 +73,19 @@ LIFETIME_7DAYS = 2
 LIFETIME_10DAYS = 3
 LIFETIME_14DAYS = 4
 
-$book.name = 'Pan Tadeusz' 
+$book.name = 'Frywolna Filozofia' 
 $book.category = 1829
 $book.amount = 1
-$book.buy_now_price = 123.45
+$book.buy_now_price = 23.50
 $book.duration = LIFETIME_7DAYS
 $book.description = %Q{
-<h2>Pan tadeusz!</h2>
-kup teraz ~!!!!!!<br/>
-nie odwoluje aukcji
+<h2>Frywolna filozofia</h2>
+asldfasdklfhaskl;dfhasjkldhfklasdf
+asdfasd
+fsadfs
+adfasd
+fasdfsdfasd
+fasdfasdf
 }
 
 $book.seller_pays_for_delivery = 0

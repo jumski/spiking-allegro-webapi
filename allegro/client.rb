@@ -42,7 +42,8 @@ class AllegroClient < Savon::Client
 
   def make_auction(item)
     begin
-      request :do_check_new_auction_ext, body: { :'session-handle' => session_handle, :'fields' => item.to_fields }
+      # request :do_check_new_auction_ext, body: { :'session-handle' => session_handle, :'fields' => item.to_fields }
+      request :do_new_auction_ext, body: { :'session-handle' => session_handle, :'fields' => item.to_fields }
     rescue 
       puts
       puts '-----------------------------'

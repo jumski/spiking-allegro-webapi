@@ -47,9 +47,4 @@ class Allegro::Auction
 
     {:fields => fields}
   end
-# 
-#   def make_auction
-#     a=$c.request :do_check_new_auction_ext, body: { :'session-handle' => $session_hash, :'fields' => $book.to_hash }
-#   end
-# 
 end
