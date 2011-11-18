@@ -1,5 +1,6 @@
 # encoding: utf-8
 require 'savon'
+require 'pry'
 require 'active_support'
 require 'yaml'
 load './allegro/client.rb'
@@ -66,18 +67,11 @@ end
 
 
 $book = Allegro::Auction.new
-
-LIFETIME_3DAYS = 0
-LIFETIME_5DAYS = 1
-LIFETIME_7DAYS = 2
-LIFETIME_10DAYS = 3
-LIFETIME_14DAYS = 4
-
-$book.name = 'Frywolna Filozofia' 
+$book.title = 'Frywolna Filozofia' 
 $book.category = 1829
 $book.amount = 1
 $book.buy_now_price = 23.50
-$book.duration = LIFETIME_7DAYS
+$book.duration = Allegro::Auction::LIFETIME_7DAYS
 $book.description = %Q{
 <h2>Frywolna filozofia</h2>
 asldfasdklfhaskl;dfhasjkldhfklasdf
@@ -88,15 +82,21 @@ fasdfsdfasd
 fasdfasdf
 }
 
-$book.seller_pays_for_delivery = 0
+$book.buyer_pays_for_delivery = 1
 $book.country_id = 228
 $book.region = 213
 $book.place = "krakuf"
 $book.zip_code = "31-331"
 
-# $book.starts_at = Time.now
-$book.delivery_methods = 1
-$book.shipment_price = 0.0
+$book.delivery_methods = 1 + 2
+$book.economic_shipment_price = 2.35
+$book.priority_shipment_price = 5.23
 $book.payment_methods = 1
+$book.free_delivery_methods = 1
 
-$c.make_auction $book
+def commit_auction
+  response = $c.make_auction $book
+  item_id = response.body[:do_new_auction_ext_response][:item_id]
+end
+
+binding.pry
