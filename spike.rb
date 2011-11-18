@@ -1,8 +1,6 @@
 # encoding: utf-8
-require 'savon'
 require 'pry'
-require 'active_support'
-require 'yaml'
+require 'savon'
 load './allegro/client.rb'
 load './allegro/value.rb'
 load './allegro/auction.rb'
